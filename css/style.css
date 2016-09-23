@@ -1,0 +1,97 @@
+body,div,p,h1,h2,h3,h4,ul,ol,li,dl,dt,dd,ol,form,table,tr,td,span,label,input,select,option,a,img,i,em,strong,b{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+a{ text-decoration:none; }
+input{ border:0 none;}
+.clearfix{ *zoom:1;}
+.clearfix:after { content:"."; clear:both; height:0; visibility:hidden; display:block;}
+html{ font-size:6.25rem;}
+body{ max-width:640px; min-width:320px; margin:0 auto; font-size:0.24rem;}
+html,body,.swiper-container { width: 100%; height: 100%;}
+/**/
+.bigBg{ background: url('../images/bg1.jpg') no-repeat; background-size: 100% 100%;}
+.first_title{ width:5rem; height:0.8rem; line-height: 0.8rem; font-size: 0.6rem; margin: 3.5rem auto 0; text-align: center; color: #007aff; }
+.f-t-span{ display: block; width:5rem; height: 0.5rem; line-height: 0.5rem; font-size: 0.32rem; margin: 0.2rem auto 0; text-align: center; font-family: 'Tahoma'; color: #f35626; }
+.f-t-b{ display: block; width:5rem; height: 0.5rem; line-height: 0.5rem; margin: 0.2rem auto 0;  font-size: 0.32rem; text-align: center; color: #ccc; font-style: normal; }
+@keyframes up {
+    0% {bottom: 1%;color: #5C5C5C;}
+    25% {bottom: 3.5%;color: #A9A9A9;}
+    50% { bottom: 4%;color: #D1D1D1;}
+    75% {bottom: 4.5%;color: #E3E3E3;}
+    100% { bottom: 5.5%;color: #fff;}
+}
+@-moz-keyframes up {
+    0% {bottom: 1%;color: #5C5C5C;}
+    25% {bottom: 3.5%;color: #A9A9A9;}
+    50% { bottom: 4%;color: #D1D1D1;}
+    75% {bottom: 4.5%;color: #E3E3E3;}
+    100% { bottom: 5.5%;color: #fff;}
+}
+@-webkit-keyframes up {
+    0% {bottom: 1%;color: #5C5C5C;}
+    25% {bottom: 3.5%;color: #A9A9A9;}
+    50% { bottom: 4%;color: #D1D1D1;}
+    75% {bottom: 4.5%;color: #E3E3E3;}
+    100% { bottom: 5.5%;color: #fff;}
+}
+@-o-keyframes up {
+    0% {bottom: 1%;color: #5C5C5C;}
+    25% {bottom: 3.5%;color: #A9A9A9;}
+    50% { bottom: 4%;color: #D1D1D1;}
+    75% {bottom: 4.5%;color: #E3E3E3;}
+    100% { bottom: 5.5%;color: #fff;}
+}
+.goUp {position: absolute;left: 50%;margin-left: -0.15rem;font-size: 0.5rem;z-index: 999;
+    animation: up 1s infinite;
+    -webkit-animation: up 1s infinite;
+    -moz-animation: up 1s infinite;
+    -o-animation: up 1s infinite;}
+
+.jobIntension{width:90%; height:auto; padding-top:0.2rem;}
+.job-tit1{font-weight:bold;font-size:0.3rem;color: #0874c1; padding-left: 0.2rem;}
+.job-tit2{color: #f35626;text-align:right;font-size: 0.3rem; padding-right: 0.6rem;}
+.SplitLine {width: 100%; height:0.08rem;background: #A9A9A9; box-shadow: 0rem 0.04rem 0.05rem #D1D1D1;}
+.personalInformation{width:90%;margin-top:0.1rem; color: #0874c1;font-weight: bold;font-size: 0.3rem; padding-left:0.1rem;}
+.personalInformation i {margin-right: 0.05rem;}
+.p-i-details{ width:90%; height: auto; font-size:0.26rem;color:#000; margin-top:0.1rem; padding-left: 0.2rem;}
+.p-i-d-title {float:left;width: 40%; height: auto;}
+.p-i-d-title div{text-align: right; margin-bottom: 0.1rem;}
+.p-i-d-content{float:right;width: 60%; height: auto;}
+.p-i-d-content div{text-align: left; margin-bottom: 0.1rem; padding-left: 0.2rem; }
+.SelfEvaluation{width: 90%; margin-top:0.1rem;color: #0874c1;font-weight: bold;font-size: 0.3rem; padding-left: 0.2rem;}
+.s-e-p{ font-size:0.23rem; width:90%; line-height: 0.3rem; margin:0.1rem auto 0;}
+
+.educationalBg { font-size: 0.3rem; line-height: 0.6rem; color:#0874c1; font-weight: bold; padding-left:0.2rem;}
+.educationalBg i { margin-right: 0.1rem;}
+.eduBgIntroduction{ width: 90%; margin: 0 auto;height: auto;}
+.eduBgIntroduction span,.eduBgIntroduction b { display: inline-block; font-size: 0.24rem; line-height: 0.3rem; margin:0.15rem 0.15rem 0.05rem 0;}
+.e-b-i-text{ width:100%; height: auto; line-height: 0.3rem; font-size: 0.22rem;}
+.e-b-i-content{ width:100%; height: auto; line-height: 0.3rem; font-size: 0.18rem; text-indent: 2em;}
+
+.skill {margin-top:0.1rem; color:#36648B;font-weight:bold;font-size:0.3rem;line-height: 0.6rem;text-align: center;}
+.skill i {margin-right:0.05rem;}
+.skillList {width:95%;height: auto;margin-top:0.1rem;}
+.skillList li{width:100%;height:0.3rem;margin-bottom: 0.1rem;}
+.skillList b{ float:left; width:40%;height:auto; font-size:0.28rem;text-align: right;line-height: 0.3rem; font-family: 'Tahoma';}
+.skillList div {float:right;width:60%;height:auto;text-align:left;font-size: 0.28rem;}
+.skillList i{color: red; margin:0 0.1rem;}
+.skillList span {color: #CDCDB4; margin:0 0.1rem;}
+
+.works{width: 100%; height: 0.5rem;background: #FFA500; margin: 0.3rem 0 0.2rem;border-radius: 40%;font-size: 0.4rem;line-height: 0.5rem;text-align: center;box-shadow: 0.3rem 0.1rem 0.2rem #ccc;}
+.works b {font-weight: 500; text-shadow: -0.01rem 0.01rem 0.2rem #C0C0C0;}
+
+.six_title { margin: 0 0 0.1rem 0.3rem;}
+.six_img1 {width: 80%;height:auto; margin: 0 auto;}
+.six_img1 img {display: block;width: 100%;}
+.six_img2 {width: 60%; height:auto; margin: 0 auto;}
+.six_img2 img { display: block; width:80%;}
+
+.seven_title {margin: 0.4rem 0 0.1rem 0.3rem;}
+
+.connection{font-size: 0.3rem; line-height: 0.6rem; color:#0874c1; font-weight: bold; text-align: center;}
+.connect-list {width:100%;height: auto;margin-top:20%;}
+.connect-list li{width:100%;height:0.35rem; margin-bottom:0.5rem;font-size:0.3rem;line-height:0.5rem;}
+.connect-list b {display: block;float:left;text-align:right; width:35%; height:100%;line-height:0.35rem;}
+.connect-list div { float:right;text-align:left; width:65%; height: 100%;}
+.connect-list i {font-style: normal;}
+
