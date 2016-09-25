@@ -252,25 +252,39 @@
         </div>
         <div class="swiper-slide bigBg">
             <div class="swiper-container container2">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper  works">
                     <div class="swiper-slide">
+                        <header><span>项目一</span><a href="https://15957135660.github.io/Shac/">汇众</a></header>
+                        <img src="images/Shac.png" alt=""/>
+                        <p>运用了jquery框架，及isotope插件，完成网站的各种运动及切换效果</p>
                     </div>
                     <div class="swiper-slide">
+                        <header><span>项目二</span><a href="">雪铁龙</a></header>
+                        <img src="" alt=""/>
+                        <p></p>
                     </div>
                     <div class="swiper-slide">
-
+                        <header><span>项目三</span><a href="https://15957135660.github.io/item/">秋季单品</a></header>
+                        <img src="images/item.png" alt=""/>
+                        <p>pc端的网页布局架构</p>
                     </div>
                     <div class="swiper-slide">
-
+                        <header><span>项目四</span><a href="">跳板网</a></header>
+                        <img src="" alt=""/>
+                        <p></p>
                     </div>
                     <div class="swiper-slide">
-
+                        <header><span>项目五</span><a href="https://15957135660.github.io/winmine/">扫雷</a></header>
+                        <img src="images/winmine.png" alt=""/>
+                        <p>简单的小游戏展示</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <header><span>项目六</span><a href="https://15957135660.github.io/issue/">发布</a></header>
+                        <img src="images/issue.png" alt=""/>
+                        <p></p>
                     </div>
                 </div>
-                <!-- 如果需要分页器 -->
                 <div class="swiper-pagination"></div>
-
-                <!-- 如果需要导航按钮 -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
@@ -341,12 +355,14 @@ var mySwiper1 = new Swiper('.container1', {
     }
 });
 var mySwiper2= new Swiper('.container2', {
-    effect:"fade",
     pagination:".swiper-pagination",
     paginationClickable:true,
     nextButton:'.swiper-button-next',
     prevButton:'.swiper-button-prev',
-    autoplay:3000
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: 2500,
+    autoplayDisableOnInteraction: false
 })
 </script>
 </body>
