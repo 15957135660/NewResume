@@ -77,16 +77,11 @@ html,body,.swiper-container { width: 100%; height: 100%;}
 .skillList i{color: red; margin:0 0.1rem;}
 .skillList span {color: #CDCDB4; margin:0 0.1rem;}
 
-.works{width: 100%; height: 0.5rem;background: #FFA500; margin: 0.3rem 0 0.2rem;border-radius: 40%;font-size: 0.4rem;line-height: 0.5rem;text-align: center;box-shadow: 0.3rem 0.1rem 0.2rem #ccc;}
-.works b {font-weight: 500; text-shadow: -0.01rem 0.01rem 0.2rem #C0C0C0;}
-
-.six_title { margin: 0 0 0.1rem 0.3rem;}
-.six_img1 {width: 80%;height:auto; margin: 0 auto;}
-.six_img1 img {display: block;width: 100%;}
-.six_img2 {width: 60%; height:auto; margin: 0 auto;}
-.six_img2 img { display: block; width:80%;}
-
-.seven_title {margin: 0.4rem 0 0.1rem 0.3rem;}
+.works header{ height: 0.5rem; padding:0.2rem 0 0.1rem 0.5rem; }
+.works header span{ display: block; width: 1.5rem; height: 0.5rem; line-height: 0.5rem; font-size: 0.3rem; color:#007aff; float: left;  }
+.works header a{ display: block; width:auto; height: 0.5rem; line-height: 0.5rem; font-size: 0.26rem; color: #f35626;}
+.works img{ display:block; width: 80%; height: auto; margin:0 auto;}
+.works p{ width: 70%; margin: 0.2rem auto 0; font-size: 0.24rem; line-height: 0.4rem; }
 
 .connection{font-size:0.3rem; line-height:0.6rem; color:#0874c1; font-weight: bold; text-align:center;}
 .connect-list {width:100%;height:auto;margin-top:15%;}
